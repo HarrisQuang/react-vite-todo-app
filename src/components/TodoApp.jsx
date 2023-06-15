@@ -1,11 +1,15 @@
 import Header from '@/components/Header';
 import TodosLogic from './TodosLogic';
+import Navbar from './Navbar';
+import Modal from './Modal';
 
 const TodoApp = () => {
     return (
         <>
-            <Header />
-            <TodosLogic />
+            <Navbar />
+            <Modal />
+            {/* <Header />
+            <TodosLogic /> */}
         </>
     );
 };
