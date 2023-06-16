@@ -17,7 +17,7 @@ const TodoItem = ({itemProp, setTodos}) => {
     return  (
         <li>
             <input type="checkbox" 
-            checked="itemProp.completed"
+            checked = {itemProp.completed}
             onChange={() => handleChange(itemProp.id)}/>
             {itemProp.title}
         </li>
