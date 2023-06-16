@@ -83,6 +83,7 @@ const Form = () => {
                     Price (between 0 and 50):
                     <input type="range" name="price" min="0" max="50" value={state.price} onChange={handleChange} />
                 </label>
+                <br />
                 <button>Submit</button>
             </form>
             <h5>Name: {state.fname} {state.lname}</h5>

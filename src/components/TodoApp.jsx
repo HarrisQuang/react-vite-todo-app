@@ -7,11 +7,11 @@ import Form from './Form';
 const TodoApp = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar />
             <Modal />
-            <Form />
-            {/* <Header />
-            <TodosLogic /> */}
+            <Form /> */}
+            <Header />
+            <TodosLogic />
         </>
     );
 };
