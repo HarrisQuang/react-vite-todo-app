@@ -1,0 +1,12 @@
+/* Note: If we have a CSS selector separated by a hyphen (e.g .new-class), 
+we will use the bracket notation syntax to access the selector in the component files like so: 
+className={styles["new-class"]}. 
+If we do not like that syntax, we can use a camelCase syntax like so: className={styles.newClass}. */
+.header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1em;
+    text-transform: lowercase;
+    text-align: center;
+}

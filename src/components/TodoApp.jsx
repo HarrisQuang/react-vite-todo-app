@@ -6,13 +6,15 @@ import Form from './Form';
 
 const TodoApp = () => {
     return (
-        <>
-            {/* <Navbar />
-            <Modal />
-            <Form /> */}
-            <Header />
-            <TodosLogic />
-        </>
+        <div className='wrapper'>
+            <div className='todos'>
+                {/* <Navbar />
+                <Modal />
+                <Form /> */}
+                <Header />
+                <TodosLogic />
+            </div>
+        </div>
     );
 };
 export default TodoApp;
