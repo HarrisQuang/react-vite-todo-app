@@ -60,6 +60,7 @@ const TodosLogic = () => {
               if (todo.id === id) {
                 todo.title = updatedTitle;
               }
+              console.log(todo)
               return todo;
           })
       );
